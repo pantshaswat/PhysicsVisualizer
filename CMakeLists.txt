@@ -25,6 +25,7 @@ add_executable(physics_visualizer
     src/shader_utils.cpp
     src/simulation_base.cpp
     src/projectile_simulation.cpp
+    src/refraction_simulation.cpp
     ${IMGUI_SOURCES}
 )
 

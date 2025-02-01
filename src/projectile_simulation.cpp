@@ -16,7 +16,7 @@ void ProjectileSimulation::init() {
    
     
     // 2. Configure OpenGL buffers
-    setupBuffers();
+    setupBuffers();          // base class buffers VAO,VBO
     setupCannonBuffers();    // Projectile-specific buffers
     setupTargetBuffers();
     
